@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-image: url(../Horoscope/images/horoscope.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+    font-size: 3em;
+}
+
+h1, p, input{
+    text-align: center;
+}
+
+.action{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button, input{
+    font-size: 40%;
+}
