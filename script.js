@@ -13,6 +13,7 @@ const horoscopes = {
     Pisces: "Your creativity will inspire someone close. Share your vision."
   }
   
+  //Used AI to give me code on how to use a start and end for the months//
   const zodiacRanges = [
     { sign: "Capricorn", start: 1222, end: 119 },
     { sign: "Aquarius", start: 120, end: 218 },
@@ -27,7 +28,9 @@ const horoscopes = {
     { sign: "Scorpio", start: 1023, end: 1121 },
     { sign: "Sagittarius", start: 1122, end: 1221 }
   ]
+  //
 
+  //Used AI help figure out a function to run the code properly//
   function getZodiacSign(month, day) {
     const mmdd = month * 100 + day;
   
@@ -65,3 +68,4 @@ const horoscopes = {
 }
 
 document.getElementById("HoroscopeBtn").addEventListener("click", showHoroscope);
+//Used AI help figure out a function to run the code properly//
